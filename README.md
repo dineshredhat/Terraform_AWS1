@@ -6,5 +6,3 @@ All these implementation was done with terraform code.
 Terraform Code to :
 Launch VMs, One in the public subnet(1-web server with 1- bastion host) and One in the private subnet(1- database server)
 Attach a NAT gateway to a private subnet
-
-![image](https://user-images.githubusercontent.com/109305854/190104386-e3b1da96-effa-42eb-9a28-f25d2aa141f2.png)
