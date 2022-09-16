@@ -70,7 +70,7 @@ resource "aws_db_instance" "db"{
    port                 = 3306
    name                 = "mydb"
    username             = "admin"
-   password             = "alexy123"
+   password             = "dinesh@1234"
    parameter_group_name = "default.mysql5.7"
    skip_final_snapshot  = "true"
    tags = {
