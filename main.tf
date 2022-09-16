@@ -7,7 +7,7 @@ version = "~> 3.0"
   }
 }
 provider "aws" {
-region = "us-east-1"
+region = "us-east-1" # we have to change regin
 }
 
 resource "aws_vpc" "my_vpc" {
