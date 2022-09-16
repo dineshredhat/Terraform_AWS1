@@ -50,7 +50,7 @@ resource "aws_db_subnet_group" "database" {
 
 resource "aws_instance" "database"{
   ami = "ami-02fe94dee086c0c37"
-  availability_zone = "us-east-1a"
+  availability_zone = "us-east-1a" #we have to change the region 
   instance_type = "t2.micro"
   key_name = "Test"
   tags = {
