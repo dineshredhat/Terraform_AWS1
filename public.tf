@@ -52,7 +52,7 @@ resource "aws_security_group" "web" {
 
 resource "aws_instance" "web-1" {
     ami = "ami-02fe94dee086c0c37"
-    availability_zone = "us-east-1a"
+    availability_zone = "us-east-1a" #we have to change region
     instance_type = "t2.micro"
     key_name = "Test"
     vpc_security_group_ids = [aws_security_group.web.id]
